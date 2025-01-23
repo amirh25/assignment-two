@@ -1,0 +1,696 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+  }
+
+/* shared style */
+.common-text{
+    font-weight: lighter;
+}
+.display-flex{
+    display: flex; justify-content: space-around;
+}
+.secondary-color{
+    color: orange;
+}
+
+.sky-blue{
+    color: skyblue;
+}
+
+.max-width{
+    max-width: 1159px;
+    
+}
+.bold-weight{
+    font-weight: 700;
+    font-size: 2.87rem;
+}
+/* share style end */
+
+
+/* Hide the checkbox */
+ .toggle-menu {
+    display: none;
+  } 
+  
+  /* Hamburger start */
+
+   .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+  } 
+
+  /* hamburger end */
+
+
+header{
+     margin: 0 auto; margin-top: 20px; 
+}
+.header-nav{
+    justify-content:space-between; align-items: center;
+}
+.nav-link{
+    text-decoration: none; 
+}
+.nav-links {
+    
+    gap: 30px; 
+    list-style: none; 
+}
+
+.heading-text{
+    font-size: 1.25rem;
+}
+
+.link-one{
+    color: orange;
+}
+
+.link-three{
+    color: #05D4DF;
+}
+.link-four{
+    color: #5D58EF;
+}
+.btn1{
+    background-color: orange; color: #FFFFFF;
+    border: none; border-radius: 8px; width: 197px; height:50px; 
+}
+/* header banner style */
+.banner-section{
+    display: flex; 
+     justify-content:center; align-items: center;
+    margin-top: 20px; height: 575px; gap:50px;
+}
+.banner-description{
+     
+     height: auto; width: auto; padding-left: 0px;
+}
+.empower{
+    color: orange;
+}
+.heading{
+    font-weight: 700;
+    font-size: 3.5rem; line-height: 3.8rem;
+}
+
+.btn2{
+    background-color: black; color: white; 
+    border: none; border-radius: 8px; width: 197px; height:50px;
+}
+
+.ban-img img{
+     height: 575px;; width: 469px;; padding-right: 0px;
+}
+
+.heading-text{
+    font-size: 1.25rem; 
+    padding-top:2px;
+}
+
+/* banner header end */
+
+
+/* main section starts here */
+/* standard curriculum stats */
+.main-section-one{
+    background: url('../assets/bg.png');
+    background-repeat: no-repeat;
+}
+
+.main-one,.main-two{
+
+    width: 1440px; height: 879px;
+    margin: 0 auto; 
+}
+
+.main-one-head{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.main-one-cards{
+    display: flex;
+     margin: 0 auto; 
+    margin-top: 60px;
+    
+    gap: 28px;
+}
+
+.card-one,.card-two,.card-three{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; 
+    height:477px;
+    box-sizing: border-box; 
+}
+.card-one{
+    /* taken help from pixo for gradiant starts */
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 19px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    /* taken help from pixo for gradiant ends */
+    
+}
+.card-one h3{
+    color: #64C8FF;
+}
+.card-two h3{
+    color: #F0AA00;
+}
+.card-three h3{
+    color: #8700FF;
+}
+.card-two{
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 19px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-three{
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 19px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+/* standard curriculum ends */
+
+/*  arrow button starts */
+.arrow-btn{
+    display: flex; 
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.25rem;
+    margin-top: 50px;
+    
+}
+.arrow-btn-one{
+    width: 60px; height: 60px; background-color: orange;
+}
+.arrow-btn-two{
+    width: 60px; height: 60px; background-color: orange;
+}
+/* arrow button ends */
+
+/* main-two or our stories starts */
+.main-section-two{
+    background:url('../assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    
+    
+}
+
+.main-two{
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+      
+}
+.main-two-head{
+   margin-top: -50px;
+}
+.main-two-cards{
+    display: flex; gap: 19px;
+    border: none; 
+    
+    
+}
+.two-one{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 18px;
+    overflow: hidden;
+    text-align:center;
+}
+.two-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 19px;     
+}
+
+.two-two img{
+ margin-top:-1px; border-radius: 18px;
+}
+.sub-one,.sub-two,.sub-three,.sub-four{
+    
+    height:auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border-radius: 18px;
+    
+}
+
+.view-all-btn{
+    width: 197px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 16px;
+   
+}
+
+.main-two-cards button{
+    
+    width: 175px;
+    height: 47px;
+    border: none;
+    border-radius: 48px;
+   
+    
+    /* margin-top: -25px; */
+}
+.bt-one-div{
+    display: flex; 
+    flex-direction: column;
+    text-align: left;
+    margin-left: 50px;
+}
+.bt-one-div h4{
+    font-size: 1.5rem;
+}
+.bt-one{
+    background: rgb(60, 216, 232);
+    position: relative;
+    margin-top: -20px;
+   color: white;
+    
+}
+
+.bt-div{
+    display: flex; 
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.bt-two{
+    background: rgb(149, 178, 38);color: #FFFFFF;
+}
+.bt-three{
+    background: rgb(93, 88, 240); color: #FFFFFF;
+}
+.bt-four{
+    background-color: chartreuse; color: #FFFFFF;
+}
+.bt-five{
+    background-color: #ae0606; color: #FFFFFF;
+}
+/* main two end */
+
+
+/* footer starts */   
+
+.footer-section {
+    background-color: #01ACFD; /* Background color */
+    height: 520px; /* Fixed height */
+    display: flex;
+    justify-content: center; /* Center the content */
+    align-items: flex-start;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    
+  }
+  
+  .footer-section > section {
+    max-width: 1169px; /* Maximum content width */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    
+  }
+  
+  /* Logo and Description Section */
+  .foot-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .foot-one .div-one {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .foot-one img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .foot-one h3 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+  }
+  
+  .foot-one .div-two p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  /* About School Section */
+  .about-school{
+    margin-left: 200px;
+  }
+  .footer-section section:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .footer-section section:nth-child(2) h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .navigation .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .navigation .nav-links .item a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navigation .nav-links .item a:hover {
+    color: #FFD700;
+  }
+  
+  /* Keep in Touch Section */
+  .footer-section section:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .footer-section section:nth-child(3) h4 {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .footer-section section:nth-child(3) div img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .footer-section section:nth-child(3) div img:hover {
+    transform: scale(1.1);
+  }
+  
+/* responsive header section and amburger button */
+@media screen and (max-width: 576px) {
+    .hamburger {
+      display: flex;
+    }
+  
+    .navigation,.btn1{
+      display: none;
+    }
+    .header-logo h2{
+        display: none;
+    }
+      
+    .toggle-menu:checked + .hamburger + .navigation {
+      display: flex;
+    }
+
+    /* banner section responsive */
+    
+    .banner-section {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px; 
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .banner-description {
+        text-align: center; 
+        padding: 0 10px; 
+    }
+
+    .heading {
+        font-size: 2rem; 
+        line-height: 2.5rem;
+    }
+
+    .heading-text {
+        font-size: 1rem; 
+    }
+
+    .btn2 {
+        width: 150px; 
+        height: 45px; 
+    }
+
+    .ban-img img {
+        max-width: 100%; 
+        height: auto; 
+
+    } 
+/* responsive banner ends */
+
+/* responsive standard curriculum or main-one starts*/
+
+.main-one{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ 
+ }
+ .main-one-cards{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 95%;
+     height: 70%;
+     margin: 0 auto;
+     
+    
+ }
+ .main-one-cards img{
+     width: 89px;
+     height: 76px;
+ }
+ .main-one-head{
+     font-size: 1.2rem;
+ }
+ .main-one-cards p{
+     padding-left: 80px;
+     padding-right: 80px;
+ }
+ .arrow-btn{
+     display: none;
+ }
+   /*main one ends  */
+
+/* main two starts */
+    .main-section-two {
+      background: url('../assets/bg.png'), 
+                  linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+      background-size: cover; 
+      background-position: center; 
+      max-width: 576px; 
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box; 
+      max-width: 576px;
+    }
+  
+    .main-two {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 20px; 
+      padding-left: 20px; 
+      width: 100%; 
+      margin: 0; 
+      box-sizing: border-box;
+      max-width: 576px;
+    }
+  
+    .main-two-head {
+      width: 100%; 
+      text-align: center; 
+      margin: 0; 
+      padding: 10px 0; 
+      max-width: 576px;
+    }
+  
+    .main-two-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 5px; 
+      width: 100%; 
+      padding: 10px; 
+      margin: 0; 
+      box-sizing: border-box; 
+      max-width:100%;
+    }
+  
+    .two-one {
+      display: none; 
+      max-width: 0px;
+    }
+  
+    .sub-one, .sub-two, .sub-three, .sub-four {
+      margin: 0; 
+      padding: 10px; 
+      background: #fff; 
+      border-radius: 18px; 
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      max-width: 173px;
+    }
+    .two-two img{
+        max-width: 173px; border-radius: 18px; margin-top:-10px;
+    }
+  
+    .bt-div {
+      text-align: left; 
+      margin-left: 10px; 
+    }
+  
+    .view-all {
+      width: 100%;
+      margin: 0 auto; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      padding: 10px 0; 
+    }
+  
+    .view-all-btn {
+      width: 100%; 
+      max-width: 134px; 
+      padding: 10px; 
+      border-radius: 10px; 
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+  .bt-two,.bt-three,.bt-four,.bt-five{
+    max-width: 100px;
+    height: 10px;
+  }
+  /* main two ends */
+
+  /* footer starts */
+  .footer-section {
+    flex-direction: column; 
+    height: auto; 
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .footer-section > section {
+    width: 100%; 
+    text-align: center; 
+    margin-bottom: 15px;
+  }
+
+  /* About School Section */
+  section:nth-child(2) {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  section:nth-child(2) h4 {
+    font-size: 18px; 
+    margin-bottom: 10px;
+    color: white; 
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 5px; 
+  }
+
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-links .item {
+    margin: 5px 0; 
+  }
+
+  .nav-links .item a {
+    font-size: 14px; 
+    text-decoration: none; 
+    color: white;
+    transition: color 0.3s;
+  }
+
+  .nav-links .item a:hover {
+    color: #FFD700; 
+  }
+  
+}
+
